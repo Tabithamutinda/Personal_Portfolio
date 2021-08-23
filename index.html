@@ -23,10 +23,10 @@
         <div class="max-width">
             <div class="logo"><a href="#">Muti<span>nda</span></a></div>
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
 
             <div class="menu-btn">
@@ -40,13 +40,15 @@
             <div class="home-content">
 
                 <div class="text-1">I am Tabitha Mutinda</div>
-                <div class="text-3">An <span>android developer</span></div>
+                <div class="text-3">A <span>software developer.</span></div>
             </div>
         </div>
+        
     </section>
 
     <!-- about part -->
     <section class="about" id="about">
+        <i class="fa fa-angle-double-down"></i>
         <div class="max-width">
             <div class="about-content">
                 <h2 class="title">About Me</h2>
@@ -55,15 +57,13 @@
                         <img src="photos/me.jpg" alt="">
                     </div>
                     <div class="column-right">
-                        <div class="text">I am Tabitha and I'm an <span>android developer.</span></div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident aspernatur, rem
-                            minima
-                            consequatur ea totam nobis commodi vitae? Optio earum temporibus dolore suscipit ipsam
-                            totam, atque at nobis quisquam ut laboriosam nihil repudiandae. Aliquid soluta aliquam
-                            praesentium nisi fuga ipsam quas earum quo sint unde repudiandae sequi ipsum illum velit
-                            distinctio magnam deleniti, ratione facilis vitae. Cumque sunt consequatur earum!</p>
+                        <div class="text">I am Tabitha and I'm a <span>software developer.</span></div>
+                        <p>“Fearlessness is like a muscle. I know from my own life that the more I exercise it the more natural
+                             it becomes to not let my fears run me.” – Arianna Huffington.Tabitha loves to see things look great in everyone eyes, 
+                             smiles when things work and determined to solve when things don't work as expected.When she's not coding,
+                        you will find her reading fiction stories and listening to music. </p>
 
-                        <a href="#">Download CV</a>
+                        <a href="https://drive.google.com/file/d/12S0A0XdnfTREiHCXcElNP9s2qX-hsxtC/view?usp=sharing">Read CV</a>
                     </div>
                 </div>
 
@@ -80,10 +80,12 @@
                 <div class="projects-content">
                     <div class="card">
                         <div class="box">
-                            <i class="bi bi-graph-up"></i>
-                            <div class="text">Dummy Api</div>
-                            <p>Made using kotlin and utilises retrofit to retrieve, update,delete and post data.</p>
-                            <a href="https://github.com/Tabithamutinda/Post_App">View Project</a>
+                            <i class="bi bi-pencil"></i>
+                            <div class="text">To-do App</div>
+                            <p>Made using kotlin language.It boosts having firebase integration in it to enable real-time database. This app 
+                                can update, delete and mark as done tasks. 
+                            </p>
+                            <a href="https://github.com/Tabithamutinda/ToDo_App">View Project</a>
                         </div>
                     </div>
 
@@ -101,12 +103,10 @@
                     <div class="card">
                         <div class="box">
                             <i class="bi bi-cart4"></i>
-                            <div class="text">Food ordering website</div>
-                            <p>Nutrifood is a website that enables anyone to order food from the convenience of where
-                                they are.
-                                It utilises javascript libraries, cards for layout and many more.
+                            <div class="text">Fibonacci Generator</div>
+                            <p>This system generates fibonacci numbers upto a maximum of 100.These are displayed in a recyclerview.
                             </p>
-                            <a href="#">View Project</a>
+                            <a href="https://github.com/Tabithamutinda/Fibonacci_m_app">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -116,30 +116,29 @@
                         <div class="card">
                             <div class="box">
                                 <i class="bi bi-graph-up"></i>
-                                <div class="text">Dummy Api</div>
-                                <p>Made using kotlin and utilises retrofit to retrieve, update,delete and post data.</p>
-                                <a href="https://github.com/Tabithamutinda/Post_App">View Project</a>
-                            </div>
-                        </div>
-    
-                        <div class="card">
-                            <div class="box">
-                                <i class="bi bi-gear"></i>
-                                <div class="text">School System</div>
-                                <p>Made using django framework.This system has everything that goes on in a school.
-                                    From registration of students,courses taught,trainers and events.
+                                <div class="text">School Registration System</div>
+                                <p>This system uses sources data from an API and coroutines to enable the execution of the registration process to run on 
+                                    different threads and eliminate app crashing.
                                 </p>
-                                <a href="https://github.com/Tabithamutinda/school_system">View Project</a>
+                                <a href="https://github.com/Tabithamutinda/School_Registration">View Project</a>
                             </div>
                         </div>
     
                         <div class="card">
                             <div class="box">
-                                <i class="bi bi-cart4"></i>
-                                <div class="text">Food ordering website</div>
-                                <p>Nutrifood is a website that enables anyone to order food from the convenience of where
-                                    they are.
-                                    It utilises javascript libraries, cards for layout and many more.
+                                <i class="bi bi-basket"></i>
+                                <div class="text">GreenKiosk web-server</div>
+                                <p>Utilises fetch to display products sold in a kiosk, for example, fruits and vegetables. 
+                                </p>
+                                <a href="https://github.com/Tabithamutinda/Green_Kiosk_Web_Server">View Project</a>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="box">
+                                <i class="bi bi-search"></i>
+                                <div class="text">Picture Book</div>
+                                <p>Created by incorporation of Picasso into the project. It utilises cards and recyclerviews. Shows a contact list that displays one's full information when clicked.
                                 </p>
                                 <a href="#">View Project</a>
                             </div>
@@ -156,7 +155,7 @@
     </section>
 
     <section>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="icons">
                 <a href="https://github.com/Tabithamutinda"><i class="bi bi-github"></i></i></a>
                 <a href="www.linkedin.com/in/tabitha-mutinda"><i class="bi bi-linkedin"></i></a>
@@ -165,7 +164,9 @@
                     Tabitha Mutinda &copy; 2021, ALL Rights Reserved
                 </p>
             </div>
+ 
         </footer>
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
     </section>
 
     <script src="script.js"></script>
